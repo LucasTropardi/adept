@@ -1,7 +1,7 @@
-package com.example.application.services;
+package br.com.adpt.services;
 
-import com.example.application.data.User;
-import com.example.application.security.AuthenticatedUser;
+import br.com.adpt.security.AuthenticatedUser;
+import br.com.adpt.data.User;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 import com.vaadin.hilla.BrowserCallable;
 import java.util.Optional;

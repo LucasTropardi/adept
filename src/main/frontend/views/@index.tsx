@@ -16,11 +16,12 @@ export default function HelloHillaView() {
     <>
       <section className="flex p-m gap-m items-end">
         <TextField
-          label="Your name"
           onValueChanged={(e) => {
             name.value = e.detail.value;
           }}
-        />
+        >
+          <label slot="label">Your name</label>
+        </TextField>
         <Button
           onClick={async () => {
             const serverResponse = await HelloWorldService.sayHello(name.value);

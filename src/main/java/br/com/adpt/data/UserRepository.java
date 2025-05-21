@@ -1,4 +1,4 @@
-package com.example.application.data;
+package br.com.adpt.data;
 
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
