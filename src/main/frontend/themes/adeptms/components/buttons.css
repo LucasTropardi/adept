@@ -1,0 +1,52 @@
+.blueb {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem; 
+  padding-left: 1.25rem;
+  padding-right: 1.25rem; 
+  /* margin-bottom: 0.5rem;  */
+  border-radius: 4px; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  font-weight: 500; 
+  color: var(--white); 
+  background-color: var(--blue-600); 
+}
+
+.blueb:hover {
+ background-color: var(--blue-800); 
+ }
+
+ .redb {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem; 
+  padding-left: 1.25rem;
+  padding-right: 1.25rem; 
+  /* margin-bottom: 0.5rem;  */
+  border-radius: 4px; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  font-weight: 500; 
+  color: var(--white); 
+  background-color: var(--red-600);
+}
+
+.redb:hover {
+ background-color: var(--red-800); 
+ }
+
+ .greenb {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem; 
+  padding-left: 1.25rem;
+  padding-right: 1.25rem; 
+  /* margin-bottom: 0.5rem;  */
+  border-radius: 4px; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  font-weight: 500; 
+  color: var(--white); 
+  background-color: var(--green-600);
+}
+.greenb:hover {
+ background-color: var(--green-800); 
+ }

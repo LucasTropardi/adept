@@ -22,7 +22,7 @@ export default function HelloHillaView() {
         >
           <label slot="label">Your name</label>
         </TextField>
-        <Button
+        <Button 
           onClick={async () => {
             const serverResponse = await HelloWorldService.sayHello(name.value);
             Notification.show(serverResponse);

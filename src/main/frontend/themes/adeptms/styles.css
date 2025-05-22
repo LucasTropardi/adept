@@ -1,1 +1,4 @@
 /* Import your application global css files here or add the styles directly to this file */
+@import url('./components/colors.css');
+@import url('./components/fonts.css');
+@import url('./components/buttons.css');
