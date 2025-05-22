@@ -3,6 +3,9 @@
   "license": "UNLICENSED",
   "type": "module",
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.0",
     "@polymer/polymer": "3.5.2",
     "@vaadin/bundles": "24.7.6",
     "@vaadin/common-frontend": "0.0.19",
@@ -124,7 +127,7 @@
       "workbox-core": "7.3.0",
       "workbox-precaching": "7.3.0"
     },
-    "hash": "37d2a4999b90d593f5be3676f8b71814f766bb29ec2a1183936c1e0206eb15a1"
+    "hash": "4557d23d10a16bbe0da5095340325160b84b8f2eb08e49dd0ea05ae15b05933d"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -163,6 +166,9 @@
     "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
     "@vaadin/vaadin-lumo-styles": "$@vaadin/vaadin-lumo-styles",
     "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
-    "react-router": "$react-router"
+    "react-router": "$react-router",
+    "@emotion/react": "$@emotion/react",
+    "@emotion/styled": "$@emotion/styled",
+    "@mui/material": "$@mui/material"
   }
 }
